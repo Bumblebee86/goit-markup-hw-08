@@ -284,13 +284,12 @@
         @media screen and (min-width: 1200px) {
         &__list {
             display: flex;
-            align-items: center;
         }
         &__item {
             margin-right: 10px;
         }
         &__link {
-            margin-bottom: 0;
+            margin-bottom: 10px;
         }
 
     }
