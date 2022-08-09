@@ -50,3 +50,14 @@
     }
 }
 
+@media (min-width: 1199px) {
+    .work {
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+}
