@@ -243,7 +243,10 @@
 
 .desctop-nav {
     &__list {
-        margin-left: 84px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 96px;
     }
 
     &__link {
