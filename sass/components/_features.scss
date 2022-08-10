@@ -7,16 +7,16 @@
         display: inline-block;
     }
     
-    // &__item {
-    //     width: 270px;
-    // }
+    &__item {
+        margin-bottom: 30px;
+    }
     
     &__icon {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
-    
+        height: 120px;
         // width: 450px;
         // height: 120px;
     
