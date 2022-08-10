@@ -167,13 +167,18 @@
 @media (min-width: 767px) {
     .footer__box {
         display: flex;
-        justify-content: center;
-        margin-bottom: 60px;
+        // justify-content: center;
+        // margin-bottom: 60px;
         align-items: baseline;
         justify-content: space-evenly;
+        // margin-left: 200px;
     }
-
+    .footer__address {
+        margin-bottom: 60px;
+    }
 }
+
+
 
 @media (min-width: 1200px) {
     .footer__address {
@@ -181,25 +186,29 @@
     }
 
     .footer__box {
-        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+    //     margin-left: 200px;
+    //     margin-bottom: 0;
     }
-    .sign-up__container {
-        margin-left: 93px;
-    }
+
     .footer {
         display: flex;
         justify-content: center;
         align-items: baseline;
-        padding: 60px 215px;
 
     }
     .sign-up__input {
         margin-right: 12px;
-        width: 358px}
+        width: 358px;
+        margin-bottom: 0;
+
+    }
     
     .sign-up {
         display: flex;
-        align-items: center;
+        align-items: flex-end;
+        justify-content: flex-end;
     }
 
 }
