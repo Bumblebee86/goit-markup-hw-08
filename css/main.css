@@ -246,17 +246,6 @@
   color: var(--color-accent-three);
 }
 @media screen and (min-width: 768px) {
-  .desctop-nav__icon {
-    display: inline-block;
-    margin-right: 10px;
-    fill: currentColor;
-  }
-}
-.desctop-nav__link {
-  line-height: 1.16;
-  color: var(--color-accent-three);
-}
-@media screen and (min-width: 767px) {
   .desctop-nav__link {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -273,12 +262,16 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .desctop-nav__item {
     margin-right: 10px;
   }
   .desctop-nav__link {
-    margin-bottom: 10px;
+    margin-bottom: 0;
   }
 }
 
