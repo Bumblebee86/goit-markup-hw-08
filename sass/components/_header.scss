@@ -217,7 +217,7 @@
 
     @media (min-width: 1200px) {
         & {
-            margin-left: 93px;}
+            margin-left: auto;}
     }
 
 
@@ -315,7 +315,9 @@
         
         &__list {
             display: flex;
-            flex-direction: row;}
+            flex-direction: row;
+            margin-left: 312px;
+        }
         
         &__item {
             margin-right: 10px;
