@@ -84,8 +84,17 @@
         justify-content: center;
         align-items: center;
         border-radius: 50%;
-        margin-right: 10px;}
-    
+
+    }
+    &__item {
+        margin-right: 10px;
+    }
+
+    &__item:last-child {
+        margin-right: 0;
+    }
+
+
     &__link:hover {
         color: var(--color-accent-four);
         background-color: var(--background-color-blue);
@@ -94,16 +103,15 @@
 }
 
 .sign-up {
-    width: 450px;
+    // width: 450px;
 
     &__container {
         display: flex;
         justify-content: center;
-        text-align: center;
     }
 
-    &__label {
-        display: block;}
+    // &__label {
+    //     display: block;}
     
     &__title {
         color: var(--color-accent-two);
@@ -164,40 +172,46 @@
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .footer__box {
         display: flex;
-        // justify-content: center;
-        // margin-bottom: 60px;
-        align-items: baseline;
+        flex-wrap: wrap;
         justify-content: space-evenly;
-        // margin-left: 200px;
+        align-items: baseline;
+
     }
     .footer__address {
-        margin-bottom: 60px;
+        margin-bottom: 70px;
     }
 }
 
 
 
 @media (min-width: 1200px) {
-    .footer__address {
-        margin-right: 70px;
-    }
-
-    .footer__box {
-        display: flex;
-        justify-content: flex-start;
-    //     margin-left: 200px;
-    //     margin-bottom: 0;
-    }
-
     .footer {
         display: flex;
         justify-content: center;
         align-items: baseline;
 
     }
+
+    .footer__box {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+
+    }
+
+    .footer__address {
+        text-align: start;
+        margin-right: 70px;
+    }
+
+    .footer-social {
+        margin-right: 93px;
+
+    }
+
     .sign-up__input {
         margin-right: 12px;
         width: 358px;
@@ -208,7 +222,12 @@
     .sign-up {
         display: flex;
         align-items: flex-end;
-        justify-content: flex-end;
+        text-align: start;
     }
 
+    .sign-up__container {
+        display: flex;
+        margin-left: auto;
+
+    }
 }

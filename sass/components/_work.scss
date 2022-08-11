@@ -1,8 +1,15 @@
 .work {
     display: none;
     background-color: var(--background-color-white);
-    padding-top: 0;
-    padding-bottom: 94px;
+    padding-top: 60;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+        & {
+            padding: 94px 0;
+            display: flex;
+        }
+    }  
 
     &__title {
         font-weight: 700;
@@ -50,14 +57,3 @@
     }
 }
 
-@media (min-width: 1199px) {
-    .work {
-        display: block;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 60px;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-}

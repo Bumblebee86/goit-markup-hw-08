@@ -1,6 +1,12 @@
 .customers {
     padding: 60px 0;
 
+    @media screen and (min-width: 1200px) {
+        & {
+            padding: 94px 0 94px 0;
+        }
+    }  
+
     &__title {
         font-weight: 700;
         font-size: 28px;
@@ -69,13 +75,7 @@
 }  
 
 @media screen and (min-width: 1200px) {
-    // .customers__list {
-    //     display: flex;
-    //     // flex-wrap: wrap;
-    //     // margin: -15px;
-    // }
     .customers__item {
         width: 170px;
-        // margin: 15px;
-     }
+    }
 }  

@@ -3,6 +3,12 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
+    @media screen and (min-width: 1200px) {
+        & {
+            padding: 94px 0 0 0;
+        }
+    }  
+
     &__list {
         display: inline-block;
     }
@@ -31,7 +37,11 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-bottom: 10px;
-        text-align: center;
+        @media (max-width: 767px) {
+            & {
+                text-align: center;
+            }}
+
     }
     
     &__text {

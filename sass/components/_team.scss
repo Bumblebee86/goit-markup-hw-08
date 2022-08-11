@@ -1,8 +1,13 @@
 .team {
     background-color: var(--background-color-light-greу);
-    // width: 480px;
     padding-top: 60px;
     padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+        & {
+            padding: 0 0 94px 0;
+        }
+    }  
 
     &__title {
         font-weight: 700;
@@ -59,7 +64,7 @@
 
 .socials__item {
     margin-bottom: 24px;
-    margin-right: 10px;
+
 }
 
 .socials__item:last-child {
